@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Layout from '../components/layout';
 import { getSortedPostsData } from '../lib/posts'
 
+//Me he quedado en getStaticProps Details con Next.js
+
 export async function getStaticProps(){
   const allPostsData = getSortedPostsData();
   return {
